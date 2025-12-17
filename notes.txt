@@ -1,1 +1,2 @@
-Let's try 
+uv add dvc mlflow pandas jupyterlab
+source .venv/bin/activate
