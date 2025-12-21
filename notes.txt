@@ -1,2 +1,3 @@
 uv add dvc mlflow pandas jupyterlab
 source .venv/bin/activate
+mlflow server --host 0.0.0.0 --allowed-hosts "*" --cors-allowed-origins "*" <- starting mlflow to be accessible orm the outside the VM
